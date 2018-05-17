@@ -104,6 +104,7 @@ public class Game implements Runnable
 	
 	public void run() 
 	{
+		// Main game loop
 		while (true)
 		{
 			lCurrTime = System.currentTimeMillis();
